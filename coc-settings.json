@@ -1,0 +1,29 @@
+{
+  "tsserver.npm": "/usr/local/bin/npm",
+  "javascript.showUnused": true,
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "dart"
+  ],
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "o": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  "html.enable": true,
+  "html.filetypes": ["html", "handlebars", "htmldjango"],
+  "html.format.enable": true,
+  "html.autoClosingTags": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "html.suggest.html5": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showAbbreviationSuggestions": true,
+  "explorer.keyMappings.global" : {
+    "t": "open:tab"
+  },
+  "flutter.lsp.initialization.closingLabels": true
+}
