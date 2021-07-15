@@ -25,5 +25,6 @@
   "explorer.keyMappings.global" : {
     "t": "open:tab"
   },
-  "flutter.lsp.initialization.closingLabels": true
+  "flutter.lsp.initialization.closingLabels": true,
+  "tsserver.implicitProjectConfig.experimentalDecorators": true
 }

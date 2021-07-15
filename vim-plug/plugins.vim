@@ -57,6 +57,8 @@ Plug 'voldikss/vim-floaterm'
 Plug 'bling/vim-bufferline'
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'folke/zen-mode.nvim'
+Plug 'Pocco81/TrueZen.nvim'
 
 call plug#end()
 
