@@ -15,13 +15,21 @@
 
   "html.enable": true,
   "html.filetypes": ["html", "handlebars", "htmldjango"],
+  "html.format.indentHandlebars": true,
   "html.format.enable": true,
   "html.autoClosingTags": true,
   "html.format.indentInnerHtml": true,
-  "html.format.indentHandlebars": true,
   "html.suggest.html5": true,
   "emmet.showExpandedAbbreviation": "always",
   "emmet.showAbbreviationSuggestions": true,
+
+  "tailwindCSS.enable": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.trace.sever": ["verbose"],
+  "tailwindCSS.includeLanguages": {
+    "handlebars": "html",
+    "plainText": "html"
+  },
   "explorer.keyMappings.global" : {
     "t": "open:tab"
   },
