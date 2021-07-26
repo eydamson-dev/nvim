@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/surefire/projects/smc-v2'
 let g:netrw_dirhist_6='/home/eydam/projects/satyr/pember'
 let g:netrw_dirhist_5='/home/eydam/projects/satyr'
 let g:netrw_dirhist_4='/home/eydam/projects/satyr/pember'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/home/eydam/projects/satyr/pember'
 let g:netrw_dirhist_0='/home/eydam/.config/nvim'
 let g:netrw_dirhist_9='/home/eydam'
 let g:netrw_dirhist_8='/home/eydam/projects/rs-web/nomad-web'
-let g:netrw_dirhist_7='/home/eydam/projects/rs-web/bos-web'
