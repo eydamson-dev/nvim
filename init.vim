@@ -16,6 +16,7 @@ so ~/.config/nvim/mustache.vim
 so ~/.config/nvim/closetag.vim
 so ~/.config/nvim/javascript-import.vim
 so ~/.config/nvim/zen-mode.vim
+so ~/.config/nvim/neoscroll.lua
 
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
