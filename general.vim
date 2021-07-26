@@ -47,7 +47,8 @@ runtime macros/matchit.vim              " Enable goto matching bracket or tag us
 syntax on
 let ayucolor="dark"
 set background=dark
-colorscheme ayu
+colorscheme dracula
+
 hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE
 
