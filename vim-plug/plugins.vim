@@ -54,6 +54,7 @@ Plug 'AndrewRadev/ember_tools.vim'
 
 " CoC / Intellisense
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'liuchengxu/vista.vim'
 
 Plug 'voldikss/vim-floaterm'
 
@@ -65,7 +66,9 @@ Plug 'folke/zen-mode.nvim'
 Plug 'Pocco81/TrueZen.nvim'
 
 Plug 'metakirby5/codi.vim'
+Plug 'editorconfig/editorconfig-vim'
 
+Plug 'romainl/vim-cool' 
 call plug#end()
 
 
