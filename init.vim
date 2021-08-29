@@ -16,6 +16,7 @@ so ~/.config/nvim/mustache.vim
 so ~/.config/nvim/closetag.vim
 so ~/.config/nvim/javascript-import.vim
 so ~/.config/nvim/zen-mode.vim
+so ~/.config/nvim/vista.vim
 so ~/.config/nvim/neoscroll.lua
 
 " WSL yank support
