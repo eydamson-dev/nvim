@@ -28,10 +28,16 @@ nmap <Leader>ea :tabedit ~/.config/alacritty/alacritty.yml<cr>
 nmap ;; :
 
 "remap gf to open on new tab by default
-nmap gf <C-w>gf<cr>
+"nmap gf <C-w>gf<cr>
 
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
+
+" remap jj to escape , new line
+inoremap jj <Esc>
+
+" remap jk to escape , new line
+inoremap jk <Esc>A
 
 
 
@@ -109,6 +115,7 @@ vnoremap > >gv
 "
 " Alternate way to save
 nnoremap <C-s> :w<CR>
+nnoremap ss :w<CR>
 
 " easier quit
 nmap <C-q> :q<cr>
@@ -116,5 +123,5 @@ nmap <C-q> :q<cr>
 " force quite
 nmap <C-S-Q> :q!<cr>
 
-
+inoremap ss <Esc>:w<cr>
 
