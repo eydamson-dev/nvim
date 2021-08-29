@@ -7,11 +7,11 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-vimlsp',
   \ 'coc-highlight',
-  \ 'coc-ember',
   \ 'coc-prettier',
   \ 'coc-highlight',
   \ 'coc-explorer',
   \ 'coc-emmet',
+  \ 'coc-ember',
 \ ]
 
 " command! -nargs=0 Prettier :CocCommand prettier.formatFile 
@@ -49,11 +49,15 @@ nmap <leader>f  <Plug>(coc-format-selected)
 " nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
-"nmap <silent> gr <Plug>(coc-references)
+nmap <silent> gr <Plug>(coc-references)
 
 " Explorer
 nmap <space>e :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
 
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+
