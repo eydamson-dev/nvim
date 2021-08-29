@@ -3,8 +3,12 @@
   "javascript.showUnused": true,
   "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSaveFiletypes": [
-    "dart"
+    "dart",
+    "javascript",
+    "css"
   ],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
@@ -14,11 +18,11 @@
   },
 
   "html.enable": true,
-  "html.filetypes": ["html", "handlebars", "htmldjango"],
+  "html.filetypes": ["html", "handlebars"],
   "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
   "html.format.enable": true,
   "html.autoClosingTags": true,
-  "html.format.indentInnerHtml": true,
   "html.suggest.html5": true,
   "emmet.showExpandedAbbreviation": "always",
   "emmet.showAbbreviationSuggestions": true,
