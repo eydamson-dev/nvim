@@ -123,5 +123,5 @@ nmap <C-q> :q<cr>
 " force quite
 nmap <C-S-Q> :q!<cr>
 
-inoremap ss <Esc>:w<cr>
+" inoremap ss <Esc>:w<cr>
 
