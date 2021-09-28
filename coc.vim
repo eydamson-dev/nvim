@@ -12,6 +12,8 @@ let g:coc_global_extensions = [
   \ 'coc-explorer',
   \ 'coc-emmet',
   \ 'coc-ember',
+  \ 'coc-phpls',
+  \ 'coc-yaml',
 \ ]
 
 " command! -nargs=0 Prettier :CocCommand prettier.formatFile 
