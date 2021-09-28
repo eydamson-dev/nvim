@@ -4,8 +4,8 @@
   "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "dart",
-    "javascript",
-    "css"
+    "css",
+    "yml"
   ],
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
@@ -18,7 +18,7 @@
   },
 
   "html.enable": true,
-  "html.filetypes": ["html", "handlebars"],
+  "html.filetypes": ["html", "handlebars", "blade"],
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.enable": true,
@@ -29,7 +29,6 @@
 
   "tailwindCSS.enable": true,
   "tailwindCSS.emmetCompletions": true,
-  "tailwindCSS.trace.sever": ["verbose"],
   "tailwindCSS.includeLanguages": {
     "handlebars": "html",
     "plainText": "html"
