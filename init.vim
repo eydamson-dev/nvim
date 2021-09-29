@@ -3,6 +3,7 @@ so ~/.config/nvim/general.vim
 so ~/.config/nvim/mappings.vim
 so ~/.config/nvim/rooter.vim
 so ~/.config/nvim/floaterm.vim
+so ~/.config/nvim/buffet.vim
 " so ~/.config/nvim/neo-format.vim
 so ~/.config/nvim/airline.vim
 " so ~/.config/nvim/nerd-tree.vim

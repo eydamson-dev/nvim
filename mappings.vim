@@ -101,7 +101,7 @@ nnoremap > :tabm +1<CR>
 " nnoremap <s-tab> :bprevious<CR>
 nnoremap K :bnext<CR>
 nnoremap J :bprevious<CR>
-nnoremap <c-x> :bd<cr>
+" nnoremap <c-x> :bd<cr>
 
 " Better tabbing
 vnoremap < <gv

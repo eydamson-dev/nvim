@@ -58,7 +58,8 @@ Plug 'liuchengxu/vista.vim'
 
 Plug 'voldikss/vim-floaterm'
 
-Plug 'bling/vim-bufferline'
+" Plug 'bling/vim-bufferline'
+Plug 'bagrat/vim-buffet'
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
