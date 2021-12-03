@@ -62,4 +62,6 @@ nmap <leader>rn <Plug>(coc-rename)
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
+nnoremap <silent> H :call CocAction('doHover')<CR>
+
 

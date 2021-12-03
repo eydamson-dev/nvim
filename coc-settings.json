@@ -5,7 +5,11 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "dart",
     "css",
-    "yml"
+    "yml",
+    "typescript",
+    "javascript",
+    "html",
+    "html5"
   ],
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
